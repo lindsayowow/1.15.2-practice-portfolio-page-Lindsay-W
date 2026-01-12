@@ -1,0 +1,76 @@
+body {
+ background-color: #CCCCFF; /* periwinkle */
+ color: #4A4A4A;
+ text-align: center;
+}
+
+h1, h2, h3, h4 {               
+ color: #3B1E54; /* deep eggplant */
+ text-align:center;
+}
+
+p {
+ font-size: 18px;
+ text-align: left;
+}
+
+nav a {
+    margin-right: 20px;   /* adjust spacing as needed */
+}
+nav a:last-child {
+    margin-right: 0;
+}
+
+section {
+    margin: 60px 0;   /* adds top and bottom breathing room */
+}
+
+#about img {
+    margin-bottom: 20px;
+}
+#about p {
+    width: 70%;          
+    margin: 0 auto;      /* centers the block */
+    text-align: left;    /* keeps text left-justified */
+}
+
+#projects article {
+    width: 70%;         /*match about for consistency*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projects article h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#projects article p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.skills-table,
+.skills-table th,
+.skills-table td {
+    border-color: #3B1E54;  
+    text-align: left;
+    padding: 4px; 
+}
+.skills-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-row {
+    background-color: #6666B2;   /* darker periwinkle */
+    color: white;
+    font-size: 19px;
+}
+
+footer {
+    text-align: left;
+    margin-top: 40px;
+}
