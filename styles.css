@@ -1,0 +1,88 @@
+header {
+ background-color: #B8B8BD; /* soft grey */
+ text-align: center;
+ padding: 10px;
+}
+
+body {
+ background-color: #CCCCFF; /* periwinkle */
+ color: #4A4A4A;
+ text-align: center;
+}
+
+h1, h2, h3, h4 {               
+ color: #3B1E54; /* deep eggplant */
+ text-align:center;
+}
+
+p {
+ font-size: 18px;
+ text-align: left;
+}
+
+nav a {
+    margin-right: 20px;   /* adjust spacing as needed */
+}
+nav a:last-child {
+    margin-right: 0;
+}
+
+section {
+    margin: 60px 0;   /* adds top and bottom breathing room */
+}
+
+#about img {
+    margin-bottom: 20px;
+    width: 280px; /*Sets max width to 180 pixels*/
+    height: 280px; /*Sets max height to 180 pixels*/
+    border-radius: 50%; /*creates a circle*/
+}
+
+#about p {
+    width: 70%;          
+    margin: 0 auto;      /* centers the block */
+    text-align: left;    /* keeps text left-justified */
+}
+
+.projects-table,
+.projects-table th,
+.projects-table td {
+    text-align: left;
+    padding: 4px; 
+}
+.projects-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-table,
+.skills-table th,
+.skills-table td {
+    border-color: #3B1E54;  
+    text-align: left;
+    padding: 4px; 
+}
+.skills-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-row {
+    background-color: #6666B2;   /* darker periwinkle */
+    color: white;
+    font-size: 19px;
+}
+
+footer {
+    background-color: #B8B8BD; /* soft grey */
+    margin-top: 40px;
+    padding: 10px;
+}
+
+footer p {
+    text-align: right;
+}
+
+footer h3 {
+    text-align: right;
+}
