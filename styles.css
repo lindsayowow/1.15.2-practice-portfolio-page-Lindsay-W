@@ -1,14 +1,41 @@
-header {
- background-color: #B8B8BD; /* soft grey */
- text-align: center;
- padding: 10px;
+.container {
+    max-width: 1100px;      
+    margin: 40px auto;      /* centers the container */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+    padding: 40px 60px;     /* inner spacing so content doesn’t touch edges */
 }
+
+header {
+  background-color: #B8B8BD; /*soft grey*/
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 20px 20px 0 0; /* rounds top corners */
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 46px;          /* larger to balance the fancy initials */
+    letter-spacing: 0.5px;
+    color: #3B1E54; /*eggplant*/
+    margin-bottom: 10px;
+}
+
+.fancy {
+    font-family: "Parisienne", cursive;
+    font-size: 1.6em;        
+    letter-spacing: 0.04em;
+    color: #3B1E54; /*eggplant*/
+    display: inline-block;    /* helps maintain clean spacing */
+}
+
 
 body {
  background-color: #CCCCFF; /* periwinkle */
  color: #4A4A4A;
- text-align: center;
-}
+ }
 
 h1, h2, h3, h4 {               
  color: #3B1E54; /* deep eggplant */
@@ -32,10 +59,13 @@ section {
 }
 
 #about img {
-    margin-bottom: 20px;
-    width: 280px; /*Sets max width to 180 pixels*/
-    height: 280px; /*Sets max height to 180 pixels*/
+    margin: 0 auto 20px;
+    display: block;
+    width: 380px; /*Sets max width to 180 pixels*/
+    height: 380px; /*Sets max height to 180 pixels*/
     border-radius: 50%; /*creates a circle*/
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+    object-fit: cover;
 }
 
 #about p {
