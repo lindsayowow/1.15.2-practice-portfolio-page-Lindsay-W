@@ -74,15 +74,40 @@ section {
     text-align: left;    /* keeps text left-justified */
 }
 
-.projects-table,
-.projects-table th,
-.projects-table td {
-    text-align: left;
-    padding: 4px; 
-}
 .projects-table {
+    border-collapse: separate;      /* allows rounded corners */
+    border-spacing: 0;              /* removes gaps between cells */
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid #9999CC;      /* periwinkle border */
+    border-radius: 12px;            /* rounded corners */
+    overflow: hidden;               /* ensures corners clip properly */
+}
+
+/* Table header + data cells */
+.projects-table th,
+.projects-table td {
+    padding: 16px 20px;             /* moves text away from borders */
+    border: 1px solid #9999CC;      /* periwinkle inner lines */
+    background: linear-gradient(
+        to bottom right,
+        #FFFFFF,
+        #E0E0FF
+    );                              /* white → light periwinkle gradient */
+    color: #3B1E54;                 /* deep eggplant text */
+    vertical-align: top;
+}
+
+/* Optional: soften the header row */
+.projects-table th {
+    background: linear-gradient(
+        to bottom right,
+        #F5F2FF,
+        #D4CCFF
+    );
+    font-size: 20px;
+    font-weight: 600;
+    color: #3B1E54;
 }
 
 .skills-table,
