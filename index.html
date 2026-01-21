@@ -4,89 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lindsay A. Webb Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+<div class="container">
 
-    <div style="text-align: center;">
-        <h1>Lindsay A. Webb Portfolio</h1>
-        <h2>LaunchCode Student and Web Development Professional</h2>
-<br><br>
-        <h3><strong>ABOUT ME</strong></h3>
-        <img src="https://media.licdn.com/dms/image/v2/D5603AQFEZDyf4Mo70g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728488911788?e=1769040000&v=beta&t=k4At-H6L2FHo2EktABIlgTE0JTXSxhn7eiO48w8nyrM" 
-             alt="Lindsay's LinkedIn Profile image. She has long hair and is wearing glasses and a white suit.">
-    </div>
-<br><br>
-<h4 style="color: blue; font-size: 20px;" align="center"><strong>Hello, world!</strong></h4>
+    <header>
+        <h1>
+            <span class="fancy">L</span>indsay 
+            <span class="fancy">A</span>. 
+            <span class="fancy">W</span>ebb Portfolio
+        </h1>
+        <h2 class="tagline"><em>Designing with heart. Building with purpose.</em></h2>
 
-<table align="center" border="0">
-    <tr>
-        <td align="left">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Sample Projects</a>
+            <a href="#skills">Skills & Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <img 
+                src="profilepic.jpg"
+                alt="Lindsay's LinkedIn profile image. She has long hair and is wearing glasses and a white suit."
+            >
+
+            <h2>About Me</h2>
+
             <p>
-                This is <strong>not</strong> my first webpage, I used to have one in college <em>back in the nineties</em>.<br>
-                I found my old webpage in the wayback time machine, but it only took 
-                <a href="https://web.archive.org/web/20060901090830/http://pages.slu.edu/student/webbla/">one snapshot</a>, before I completed it.<br>
-                <br><br>
-                I am a LaunchCode student enrolled in the October 2025 cohort of the Women+ Software Development Bootcamp.<br>
-                So far, we have refined our computer knowledge and JavaScript skills, and we are now moving on to HTML and CSS.<br>
-                At the end of the program, we should be able to create a full web app from end to end.<br>
-                I am looking forward to learning more in this course and demonstrating my newly-learned skills.
+                I am a LaunchCode student enrolled in the October 2025 cohort of the Women+ Software Development Bootcamp.
+                We have already refined our computer knowledge and JavaScript skills and are now moving on to HTML, CSS, and Java.
+                At the end of the program, we should be able to create a full web app from end to end.
+                I am looking forward to learning more and refining my newly learned skills.
             </p>
-        </td>
-    </tr>
-</table>
+        </section>
 
-<br><br>
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <h2>Sample Projects and Coding</h2>
 
-<div>
-    <table align="center" border="5">
-        <caption><strong>Professional Skills and Certifications</strong><br></caption>
-        <tr>
-            <th>Skill</th>
-            <th>Length of Experience</th>
-            <th>Proficiency</th>
-        </tr>
+            <div class="project-grid">
 
-        <tr><td>HTML</td><td>1 year</td><td>Novice</td></tr>
-        <tr><td>JavaScript</td><td>1 year</td><td>Novice/Intermediate</td></tr>
-        <tr><td>SQL</td><td>3 years</td><td>Intermediate</td></tr>
-        <tr><td>Microsoft PL-300 Certification: Power BI Data Analyst Associate</td><td>1.5 years</td><td>Intermediate</td></tr>
-        <tr><td>AI Foundation Certification</td><td>1 year</td><td>Intermediate</td></tr>
-        <tr><td>MS Office Suite</td><td>30+ years</td><td>Advanced</td></tr>
-        <tr><td>Project Management</td><td>6 years</td><td>Advanced</td></tr>
-        <tr><td>Agile Practitioner</td><td>8 years</td><td>Intermediate</td></tr>
-        <tr><td>Data Analysis</td><td>2 years</td><td>Intermediate</td></tr>
-        <tr><td>Spanish</td><td>30+ years</td><td>Fluent</td></tr>
-        <tr><td>German</td><td>3 years</td><td>Novice/Intermediate</td></tr>
-    </table>
+                <div class="project-card">
+                    <h3>JavaScript</h3>
+                    <p>
+                        <a href="https://github.com/lindsayowow/1.14.1-practice-writing-unitTests-Lindsay-W">Practice Writing Unit Tests</a><br>
+                        Shopping Cart highlighting code testing skills.
+                    </p>
+                    <p>
+                        <a href="https://github.com/lindsayowow/1.12.3-practice-importing-modules-Lindsay-W">Importing Modules</a><br>
+                        Demonstration of modular coding.
+                    </p>
+                    <p>
+                        <a href="https://github.com/lindsayowow/1.12.2-practice-string-utilities-Lindsay-W">String Utilities</a><br>
+                        Various manipulation methods of string text.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>HTML & CSS</h3>
+                    <p>
+                        <a href="https://github.com/lindsayowow/1.15.2-practice-portfolio-page-Lindsay-W">Portfolio Page</a><br>
+                        Code development process for this website.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Java</h3>
+                    <p>
+                        <a href="">Coming soon</a><br>
+                        Future projects will be highlighted here.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>SQL</h3>
+                    <p>
+                        <a href="">Coding Example</a><br>
+                        Don't forget to add a link above and description here.
+                    </p>
+                </div>
+
+            </div>
+
+            <p class="center-note">
+                <i>See more examples of my development work <a href="https://github.com/lindsayowow">here</a>.</i>
+            </p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <h2>Professional Skills and Certifications</h2>
+
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th class="header-row">Skill</th>
+                        <th class="header-row">Length of Experience</th>
+                        <th class="header-row">Proficiency</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr><td>HTML</td><td>1 year</td><td>Novice</td></tr>
+                    <tr><td>JavaScript</td><td>1 year</td><td>Novice/Intermediate</td></tr>
+                    <tr><td>SQL</td><td>3 years</td><td>Intermediate</td></tr>
+                    <tr><td>Microsoft PL-300 Certification: Power BI Data Analyst Associate</td><td>1.5 years</td><td>Intermediate</td></tr>
+                    <tr><td>AI Foundation Certification</td><td>1 year</td><td>Intermediate</td></tr>
+                    <tr><td>MS Office Suite</td><td>30+ years</td><td>Advanced</td></tr>
+                    <tr><td>Project Management</td><td>6 years</td><td>Advanced</td></tr>
+                    <tr><td>Agile Practitioner</td><td>8 years</td><td>Intermediate</td></tr>
+                    <tr><td>Data Analysis</td><td>2 years</td><td>Intermediate</td></tr>
+                    <tr><td>Spanish</td><td>30+ years</td><td>Native-like Fluency</td></tr>
+                    <tr><td>German</td><td>3 years</td><td>Basic</td></tr>
+                </tbody>
+            </table>
+
+        <a href="LindsayWebbResume.pdf" target="_blank" class="resume-link">Download résumé</a>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact"></section>
+
+    </main>
+
+    <footer>
+        <h3><strong>Let's connect!</strong></h3>
+        <p>
+            <a target="_blank" href="mailto:lindsayow@gmail.com">Email</a><br>
+            <a href="https://www.linkedin.com/in/lindsay-webb">LinkedIn</a><br>
+            <a href="https://github.com/lindsayowow">GitHub</a><br>
+            <br>
+            &copy; <b>Lindsay Webb</b>. <i>All rights reserved.</i>
+        </p>
+    </footer>
+
 </div>
-
-<br><br><br>
-
-<div align="center">
-    <p><strong>Contact Me:</strong></p>
-<p>
-<form action="mailto:lindsayow@gmail.com" method="POST" enctype="text/plain">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
-
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br><br>
-
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
-
-    <button type="submit">Submit</button>
-</form>
-
-    </p>
-</div>
-
-<br><br><br>
-
-<footer>
-    <p>&copy; 2026 My Awesome Website</p>
-</footer>
-
 </body>
 </html>
